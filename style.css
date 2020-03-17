@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
     height: 500px;
     background-color: #0D325A;
     width: 100vw;
-    font-family: 'Roboto', sans-serif;
-
 
 }
 .top-header {
@@ -98,10 +97,11 @@ header{
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 400;
     color: white;
     line-height: 60px;
+    margin-bottom: 30px;
 }
 
 .jumbo-wrapper {
@@ -115,5 +115,75 @@ h1 {
     border-radius: 4px;
     padding: 9px 20px;
     background-color: #7fb802;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
 
+.fascia {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.fascia p {
+    color: #999;
+    font-size: 18px;
+}
+
+section.contenuto{
+    background-color: white;
+    width: 100vw;
+    height: 605px;
+}
+
+
+
+.casella {
+    width: 400px;
+    float: left;
+    padding: 30px;
+}
+
+.blocco img{
+    width: 250px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.blocco hr{
+    width: 40px;
+    height: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #999;
+}
+
+h3{
+    color: #7fb802;
+    font-family: inherit;
+    text-align: center;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.blocco p {
+    color: #999;
+    text-align: center;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+#pc {
+    margin-top: 50px;
 }
