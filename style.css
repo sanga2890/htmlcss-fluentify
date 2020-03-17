@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 500px;
+    background-color: #0D325A;
+    width: 100vw;
+}
+.top-header {
+    height: 100px;
+    background-color: #0D325A;
+    width: 100vw;
+}
+
+.container {
+    width: 1300px;
+    margin: auto;
+}
+
+#logo {
+    float: left;
+    margin-top: 29px;
+}
+.navbar {
+    float: left;
+    line-height: 100px;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cta {
+    float: right;
+    line-height: 100px;
+}
+
+.cta a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
