@@ -8,6 +8,9 @@ header{
     height: 500px;
     background-color: #0D325A;
     width: 100vw;
+    font-family: 'Roboto', sans-serif;
+
+
 }
 .top-header {
     height: 100px;
@@ -15,18 +18,29 @@ header{
     width: 100vw;
 }
 
+.bottom-header {
+    height: 400px;
+    background-image: url(img/oldman.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .container {
-    width: 1300px;
+    width: 1200px;
     margin: auto;
+
 }
 
 #logo {
     float: left;
-    margin-top: 29px;
+    margin-top: 25px;
+    cursor:pointer;
 }
 .navbar {
     float: left;
     line-height: 100px;
+    margin-left: 70px;
 }
 .navbar li {
     display: inline-block;
@@ -35,6 +49,13 @@ header{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.navbar a:hover {
+    color: #f8b71c;
 }
 
 .cta {
@@ -43,7 +64,56 @@ header{
 }
 
 .cta a {
-    color: white;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.tutor {
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.login {
+    color: white;
+    border: 1px solid #5f94ca;
+    border-radius: 4px;
+    padding: 8px 25px;
+
+}
+
+.cta .btn {
+    color: white;
+    border-radius: 4px;
+    padding: 9px 20px;
+    background-color: #7fb802;
+}
+
+.testa {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    line-height: 60px;
+}
+
+.jumbo-wrapper {
+    height: 400px;
+    width: 600px;
+    position: relative;
+}
+
+.testa .btn{
+    color: white;
+    border-radius: 4px;
+    padding: 9px 20px;
+    background-color: #7fb802;
+
 }
